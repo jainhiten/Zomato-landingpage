@@ -4,10 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Zomato-order food Online</title>
 </head>
 <body>
+    <section class="hero__section">
+        <header>
+            <nav class="navbar">
+                <a href="#">Get The App</a>
+                <div class="navbar__menu_container">
+                    <a href="#" class="link">Investor Relations</a>
+                    <a href="#" class="link">Add Restaurant</a>
+                    <a href="#" class="link">Login</a>
+                    <a href="#" class="link">Sign Up</a>
+                    <a href="#" class="user__icon"><i class="fa fa-user"></i></a>
+                </div>
+            </nav>    
+        </header>
+        <div class="hero__section_container">
+            <img class="hero__section_logo" src="./images/heroSectionLogo.png"  alt='Zomato Logo'/>
+            <h1 class="hero__section_title">Discover the best food & drinks in Pune</h1>
+            <div class="hero__section_input_container">
+                <i class="fa fa-location-dot"></i>
+                <input class="input_container_location" type="text" placeholder="A-121, 14, Solapur Rd,Pune"/>
+                <i class="fa-solid fa-magnifying-glass"></i><input class="input_container_search" type="text" placeholder="Search for a restaurant,cuisine or a dish "/>
+            </div>
+        </div>
+    </section>
+
+    <section class="container we__offer">
+        <div class="card">
+            <img src="./images/item1.png" alt="Offer" >
+            <h2>Order Online</h2>
+            <p>Stay Home and order to your doorstep</p>
+        </div>
+        <div class="card">
+            <img src="./images/item2.png" alt="Offer" >
+            <h2>Dining Out</h2>
+            <p>View the city's favourite dining venues</p>
+        </div>
+        <div class="card">
+            <img src="./images/item3.png" alt="Offer" >
+            <h2>Nightlife And Clubs</h2>
+            <p>Explore the city's top nightlife outlets</p>
+        </div>
+    </section>
     
+    <section class="container collections">
+        <h1>collections</h1>
+        <div class="sub__heading_container">
+            <span>Explore curated lists of top restaurants, cafes, pubs, and bars in Pune, based on trends</span>
+            <span>All collections in Pune</span>
+        </div>
+        <div class="collections_card_container">
+            <div class="card card1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Best of Pune</h4>
+                    <span>34 places</span>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Best Bars & Pubs</h4>
+                    <span>30 places</span>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Newly Places</h4>
+                    <span>97 places</span>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Trending This week</h4>
+                    <span>22 places</span>
+                </div>
+            </div>
+        </div>    
+    </section>
+
 </body>
 </html>
