@@ -388,7 +388,7 @@
     font-weight: 600;
     font-size: 13px;
     margin-bottom: 5px;
-    letter-spacing: 0.8px;
+    letter-spacing: 2.5px;
 
 }
 .footer_link{
@@ -419,7 +419,7 @@
     font-size: 13px ;
 }
 .footer__store_logos{
-    width:80%;
+    width:60%;
 }
 .footer_section2{
     width: 80%;
